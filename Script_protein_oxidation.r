@@ -6,7 +6,7 @@ library(Hmisc) # Spearman's rho rank correlation coefficients: is there any kind
 # 1. Analysis of the amino acid composition for all E. coli proteins according to the subcellular location
 
 # 1.a. Importing the whole table
-setwd("E:\\Recovered data 10-28 20_42_32/Deep Scan result/Lost Partition1(FAT32)/BACKUP_relevant/PAPERS_IN_DEVELOPMENT/PROTOXID/PROTEIN_OXID/Statistics_Oxid_Prot/")
+setwd(".")
 aa_norm <- read.csv("Table_aa_content_ecoli_wo_unknown_median_norm.csv", header=T, sep="\t", dec=".")
 
 # 1.b. Testing if the distribution of the amino acids is homogeneous among the subcelullar location
