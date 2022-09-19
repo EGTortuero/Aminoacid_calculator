@@ -9,3 +9,7 @@ This script is executed under Python 3 and it work as follows:
 python3 aminoacid_calculator.py inputfile.fasta
 
 Where inputfile.fasta is a multiFASTA file containing all protein sequences.
+
+* Script_protein_oxidation.r
+
+This R script contains all the statistical analyses performed for the mentioned manuscript.
